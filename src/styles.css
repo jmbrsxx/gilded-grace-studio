@@ -157,12 +157,6 @@
   }
 }
 
-@theme inline {
-  --animate-fade-up: fade-up 0.8s ease-out forwards;
-  --animate-shimmer: shimmer 3s ease-in-out infinite;
-  --animate-float: float 6s ease-in-out infinite;
-}
-
 @keyframes fade-up {
   from { opacity: 0; transform: translateY(30px); }
   to { opacity: 1; transform: translateY(0); }
